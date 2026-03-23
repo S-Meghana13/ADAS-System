@@ -1,8 +1,14 @@
-venv/
+# Large files
+*.mp4
+*.avi
+*.webm
+*.pt
+
+# Images duplicates
+*.jpg.1
+*.avi.1
+
+# Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-*.pt
-*.avi
-*.jpg
+venv/
